@@ -65,7 +65,7 @@ export const projectsArray = [
         icons: [<ImHtmlFive/>, <SiJavascript/>, <DiCss3/>, <BsBootstrap/>],
         image: portfolio,
         tags: ['frontEnd', 'all'],
-        deploy:'',
+        deploy:'https://alexanderleino.github.io/react-bootstrap-portfolio',
         code:'https://github.com/AlexanderLeino/react-bootstrap-portfolio'
     },
     
