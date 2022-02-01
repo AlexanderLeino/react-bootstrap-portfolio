@@ -23,7 +23,7 @@ export const projectsArray = [
     },
     {
         title:'Black Jack',
-        description: 'The goal of the project was to focus on writing dense programming logic when I first started writing code as well as focus on heavy DOM manipulation by creating each individual card using BootStrap, CSS, vanilla javascript. This project is still a work in progress. Currently working on making the ui responsive. It was really a proof of concept type of project ',
+        description: 'The goal of the project was to focus on writing dense programming logic when I first started writing code as well as focus on heavy DOM manipulation by creating each individual card using BootStrap, CSS, vanilla javascript. This project is still a work in progress. Currently working on making the ui responsive for mobile devices. Currently responsive for everything up to laptops! Have fun! ',
         deploy: 'https://alexanderleino.github.io/Netflix-and-Grill/',
         repository: 'https://github.com/AlexanderLeino/Netflix-and-Grill',
         icons: [<ImHtmlFive/>, <SiJavascript/>, <DiCss3/>, <BsBootstrap/>],
