@@ -1,0 +1,35 @@
+.profile-picture {
+    border-radius: 50%;
+    height: auto;
+    width: 125px;
+    margin-right: 10px;
+}
+.center {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textBox {
+    line-height: 1.5;
+    font-weight: 600;
+    
+}
+
+.toggle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 992px ){
+    .center {
+        justify-content: center;
+    }
+    .name {
+        text-align: center;
+    }
+    .textBox {
+        text-align: center;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,29 @@
+.accolades-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text-container {
+    background: rgb(172,220,255);
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.textBox {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media (max-width: 602px){
+    .text-container{
+        margin-left: 1rem!important;
+        margin-right: 1rem!important;
+        font-size: 15px;
+        
+    }
+    .textBox {
+        font-size: 15px;
+    }
+}

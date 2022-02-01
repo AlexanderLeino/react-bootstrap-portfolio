@@ -1,0 +1,13 @@
+
+*{
+    font-weight: 600;
+}
+
+.name {
+    font-weight: 600;
+}
+@media (min-width: 602px) {
+    .textBox {
+        font-size: 15px;
+    }
+}
