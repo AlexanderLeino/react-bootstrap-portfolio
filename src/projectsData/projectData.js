@@ -46,18 +46,6 @@ export const projectsArray = [
     },
 
     {
-        title:'Only Plants',
-        description: 'This was my bootcamps teams 2nd project where the focus was creating an app where individuals can create posts, create an account and sign in using the npm bycrpt to authinicate the user.',
-        deploy: 'https://alexanderleino.github.io/Netflix-and-Grill/',
-        repository: 'https://github.com/AlexanderLeino/Netflix-and-Grill',
-        icons: [<ImHtmlFive/>, <SiJavascript/>, <DiCss3/>, <BsBootstrap/>, <SiMysql/>, <SiHandlebarsdotjs/>, <FaNode/>, <SiExpress/>],
-        image: onlyPlants,
-        tags: ['fullStack', 'all'],
-        deploy: 'https://only-plants.herokuapp.com/',
-        code: 'https://github.com/sarahmaskill/only-plants/deployments/activity_log?environment=only-plants'
-    },
-
-    {
         title:'My Portfolio',
         description: 'I built this portfolio to showcase my previous works. The Goal of the project was to create and implement a dark and light theme, I also wanted to use HashNodes api to get all of my previous blog posts and have them visible under the articles tab',
         deploy: 'https://alexanderleino.github.io/Netflix-and-Grill/',
