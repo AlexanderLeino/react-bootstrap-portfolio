@@ -6,7 +6,6 @@ import { BsBootstrap } from 'react-icons/bs'
 import netflixGrillPic from '../Assets/netflix-grill.png'
 import localFarmers from '../Assets/localFarmers.PNG'
 import blackJack from '../Assets/blackJack.PNG'
-import onlyPlants from '../Assets/onlyPlants.PNG'
 import portfolio from '../Assets/portfolio.PNG'
 
 export const projectsArray = [
