@@ -28,7 +28,7 @@ function Header({theme, toggleTheme}) {
 
       <Col  lg={6} className='mt-4'>
         <h3 className='name'>Alexander Leino</h3>
-        <h5 className='name'>Front End Developer | Seeking a Full Time Position Developing React / JavaScript Applications</h5>
+        <h5 className='name'>Full Stack Developer | Seeking a Full Time Position Developing React / JavaScript Applications</h5>
       </Col>
 
       <Col>
