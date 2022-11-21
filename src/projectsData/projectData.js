@@ -39,8 +39,8 @@ export const projectsArray = [
         icons: [<ImHtmlFive/>, <SiJavascript/>, <DiCss3/>, <FaNode/>, <SiExpress/>, <SiReact/>, <SiGraphql/>, <SiMongodb/>, <SiChakraui/>],
         image: localFarmers,
         tags: ['fullStack', 'all'],
-        deploy: 'https://github.com/tevissaur/your-local-farmers',
-        code: 'https://your-local-farmers.herokuapp.com'
+        deploy: 'https://your-local-farmers.herokuapp.com/',
+        code: 'https://github.com/tevissaur/your-local-farmers'
 
     },
 

@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components"
 export const GlobalStyles = createGlobalStyle`
 
 html {
-    background: ${({theme}) => theme.background}
+    background: ${({theme}) => theme.background};
     transition: all 0.50s linear;
   }
 
@@ -38,7 +38,7 @@ html {
     color: ${({theme}) => theme.hoverColor}
   }
   navItem nav-link active {
-    color: ${({theme}) => theme.activeTextColor}
+    color: ${({theme}) => theme.activeTextColor};
     background: ${({theme}) => theme.activeBackground}
   }
   `

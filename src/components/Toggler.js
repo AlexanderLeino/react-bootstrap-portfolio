@@ -28,7 +28,7 @@ const Toggle = ({theme, toggleTheme}) => {
                             width='fit-content'
                             height='fit-content'    
                         />}
-            onChange={isChecked,checkSetter} 
+            onChange={[isChecked, checkSetter]} 
             checked={isChecked}
         />
     )
