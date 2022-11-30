@@ -24,7 +24,6 @@ function Header({ theme, toggleTheme }) {
         setStrength(cliftonStrengths[0])
         index = 1
       } else {
-        console.log('HEY LOOK HERE', index)
         setStrength(cliftonStrengths[index])
         index++
       }

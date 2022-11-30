@@ -7,7 +7,7 @@ import FooterCss from './Footer.css'
 function Footer() {
   return(<>
     <Container className='mt-5'>
-        <h6 style={{textAlign:'center', fontSize:'25px'}}>Lets Connect</h6>
+        <div style={{textAlign:'center', fontSize:'25px'}}>Lets Connect</div>
         <div className='footer'>
             <a  target='_blank' className='navItem' href='https://twitter.com/AlexDotDev'><ImTwitter className='icon'/></a>
                 <a className='navItem' target='_blank' href='https://hashnode.com/@Aleino'><SiHashnode className='icon'/></a>

@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from "react";
-import { Link, Redirect } from "react-router-dom";
 import { GET_BLOG_POSTS } from "../utils/queries";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container,  Col } from "react-bootstrap";
 
-function Articles({ theme }) {
+function Articles() {
   const [blogPosts, setBlogPosts] = useState([]);
-  console.log(blogPosts);
+  const [isLoading, setIsLoading] = useState(false)
 
   useEffect(() => {
-    console.log("We are fetching");
     gql(GET_BLOG_POSTS);
   }, []);
 
   async function gql(query) {
+    setIsLoading("Loading...")
     const data = await fetch("https://api.hashnode.com/", {
       method: "POST",
       headers: {
@@ -24,20 +23,23 @@ function Articles({ theme }) {
     });
 
     const apiResponse = await data.json();
+    if(apiResponse) setIsLoading(false)
     setBlogPosts(apiResponse.data.user.publication.posts);
   }
 
+  if(isLoading){
+    return <div style={{display: 'flex', justifyContent: 'center', fontSize: '30px'}}>{isLoading}</div>
+  }
   return (
     <>
       {blogPosts.map((post) => {
         return (
-          <Container className="mt-5">
+          <Container className="mt-5" key={post.slug}>
             <Col
               className="p-4 ms-3 me-3 text-container"
               style={{
                 boxShadow: "5px 5px 5px 1px #888888",
                 padding: "20px",
-                border: "2px solid black",
                 border: "2px solid black",
                 maxWidth: "fit-content",
                 borderRadius: "25px",
@@ -49,6 +51,7 @@ function Articles({ theme }) {
               <p style={{ fontSize: "18px" }}>{post.brief}</p>
               <a
                 target="_blank"
+                rel="noreferrer"
                 href={`https://alexanderleino.hashnode.dev/${post.slug}/`}
               >
                 Read More..

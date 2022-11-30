@@ -27,7 +27,7 @@ function Home() {
               boxShadow: "5px 5px 5px 1px #888888",
             }}
           >
-            <div style={{ textAlign: "center", fontSize: "25px" }}>
+            <div style={{ textAlign: "center", fontSize: "30px" }}>
               Welcome To My Portfolio
             </div>
             <div
@@ -50,7 +50,7 @@ function Home() {
                 boxShadow: "5px 5px 5px 1px #888888",
               }}
             >
-              <div style={{ textAlign: "center", fontSize: '25px'}}>
+              <div style={{ textAlign: "center", fontSize: '30px'}}>
                 Technologies I Have Experience With
               </div>
               <Row
@@ -165,9 +165,9 @@ function Home() {
               boxShadow: "5px 5px 5px 1px #888888",
             }}
           >
-            <h1 style={{ textAlign: "center", fontWeight: "600" }}>
+            <div style={{ textAlign: "center", fontSize: '30px'}}>
               Recent Accolades
-            </h1>
+            </div>
             <Row className="accolades-container  mt-3">
               <Col
                 style={{

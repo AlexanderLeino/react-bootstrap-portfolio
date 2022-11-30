@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import {
   Container,
-  Button,
   Image,
   Row,
   Col,
+  Button,
 } from "react-bootstrap";
-
 import ButtonContainerCss from "../components/ButtonContainer.css";
 import { projectsArray } from "../projectsData/projectData";
 
@@ -34,37 +33,39 @@ function ButtonContainer() {
   return (
     <>
       <Container className="mt-5 buttonContainer" size="sm">
-        <Button
+        <button
           style={{ fontWeight: "600", borderRadius: "25px" }}
           value="all"
           onClick={handleChange} 
-          className="button button1"
+          className="button1"
+          
         >
           All
-        </Button>
-        <Button
+        </button>
+        <button
           style={{ fontWeight: "600", borderRadius: "25px" }}
-          className="button button2"
+          className="button2"
           value="fullStack"
           onClick={handleChange}
         >
           Full Stack
-        </Button>
-        <Button
+        </button>
+        <button
           style={{ fontWeight: "600", borderRadius: "25px"}} 
-          className="button button3"
+          className="button3"
           value="frontEnd"
           onClick={handleChange}
         >
           Front End
-        </Button>
+        </button>
       </Container>
       <Container className=" mt-5" fluid="sm">
         <Row>
-          {filteredProjects.map((project) => {
+          {filteredProjects.map((project, index) => {
             return (
               <>
                 <Container
+                  key={index}
                   as="div"
                   style={{
                     display: "flex",
@@ -105,17 +106,17 @@ function ButtonContainer() {
                         </h2>
 
                         <Col lg={6} md={12} sm={12} xs={12}>
-                          <Image
-                            style={{
-                              height: "100%",
-                              maxWidth: "600px",
-                              borderRadius: "25px",
-                              padding: "10px",
-                              overflow: "hidden",
-                              width: "100%",
-                            }}
-                            src={project.image}
-                          />
+                          <div style={{display: 'flex', alignItems: 'center', height: '100%'}}>
+                            <Image
+                              style={{
+                                borderRadius: "25px",
+                                padding: "10px",
+                                overflow: "hidden",
+                                width: "100%",
+                              }}
+                              src={project.image}
+                            />
+                          </div>
                         </Col>
                         <Col lg={6}>
                           <h2
@@ -155,7 +156,7 @@ function ButtonContainer() {
                               justifyContent: "space-around",
                             }}
                           >
-                            <a href={project.deploy} target="_blank">
+                            <a href={project.deploy} rel="noreferrer" target="_blank">
                               <Button
                                 style={{
                                   fontWeight: "600",
@@ -169,7 +170,7 @@ function ButtonContainer() {
                                 Deploy App
                               </Button>
                             </a>
-                            <a href={project.code} target="_blank">
+                            <a href={project.code} rel="noreferrer" target="_blank">
                               <Button
                                 style={{
                                   fontWeight: "600",

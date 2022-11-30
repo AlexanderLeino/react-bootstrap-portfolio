@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { func, string } from "prop-types";
 import { BsMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import Switch from "react-switch";
 

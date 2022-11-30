@@ -11,6 +11,7 @@ function Navbar() {
         justify
         className="justify-content-center"
         variant="tabs"
+        
       >
         <LinkContainer
           className="navItem textBox"

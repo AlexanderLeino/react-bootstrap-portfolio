@@ -31,7 +31,7 @@ export const darkTheme = {
   button1Text: "black",
   button2Text: "black",
   button3Text: "black ",
-  // buttonHoverText: ""
+  navItemHoverColor: 'white',
   hoverColor: "green",
   activeTextColor: "lightGreen",
   activeBackground: "black",
