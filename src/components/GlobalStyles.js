@@ -26,14 +26,28 @@ html {
     background: ${({ theme }) => theme.button1Color};
     color: ${({ theme }) => theme.button1Text}
   }
+
+  .button1:hover {
+    background-color: ${({theme}) => theme.buttonHoverColor};
+  }
   .button2 {
     background: ${({ theme }) => theme.button2Color};
     color: ${({ theme }) => theme.button2Text}
   }
+
+  .button2:hover{
+    background-color: ${({theme}) => theme.buttonHoverColor};
+  }
+
   .button3 {
     background: ${({ theme }) => theme.button3Color};
     color: ${({ theme }) => theme.button3Text}
   }
+
+  .button3:hover{
+    background-color: ${({theme}) => theme.buttonHoverColor};
+  }
+
   .nav-link:hover {
     color: ${({ theme }) => theme.hoverColor}
   }

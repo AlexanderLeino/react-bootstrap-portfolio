@@ -13,10 +13,11 @@ const Toggle = ({ theme, toggleTheme }) => {
 
   return (
     <Switch
+    offColor={'#cbbdff'}
       uncheckedIcon={
         <BsFillSunFill
           size="28px"
-          color="orange"
+          color="yellow"
           width="fit-content"
           height="fit-content"
         />
@@ -28,11 +29,6 @@ const Toggle = ({ theme, toggleTheme }) => {
       checked={isChecked}
     />
   );
-};
-
-Toggle.prototype = {
-  theme: string.isRequired,
-  toggleTheme: func.isRequired,
 };
 
 export default Toggle;

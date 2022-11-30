@@ -36,10 +36,9 @@ function ButtonContainer() {
       <Container className="mt-5 buttonContainer" size="sm">
         <Button
           style={{ fontWeight: "600", borderRadius: "25px" }}
-          className="button button1"
           value="all"
-          onClick={handleChange}
-          bsPrefix="btn"
+          onClick={handleChange} 
+          className="button button1"
         >
           All
         </Button>
@@ -52,7 +51,7 @@ function ButtonContainer() {
           Full Stack
         </Button>
         <Button
-          style={{ fontWeight: "600", borderRadius: "25px" }}
+          style={{ fontWeight: "600", borderRadius: "25px"}} 
           className="button button3"
           value="frontEnd"
           onClick={handleChange}

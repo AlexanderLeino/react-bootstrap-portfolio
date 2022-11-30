@@ -3,11 +3,11 @@ import { Nav, Container, Link } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import NavBarCSS from "./NavBar.css";
 
-function Navbar({ theme, themeToggler }) {
+function Navbar() {
   return (
     <Container fluid="md">
       <Nav
-        style={{ textDecoration: "none", fontWeight: "600", marginTop: "25px" }}
+        style={{marginTop: "25px" }}
         justify
         className="justify-content-center"
         variant="tabs"
@@ -16,10 +16,11 @@ function Navbar({ theme, themeToggler }) {
           className="navItem textBox"
           to="/react-bootstrap-portfolio"
         >
-          <Nav.Item>
+          <Nav.Item >
             <Nav.Link
               className="navItem textBox"
               href="/react-bootstrap-portfolio"
+              style={{fontSize: '20px'}}
             >
               About Me
             </Nav.Link>
@@ -34,6 +35,7 @@ function Navbar({ theme, themeToggler }) {
             <Nav.Link
               className="navItem textBox"
               href="/react-bootstrap-portfolio/projects"
+              style={{fontSize: '20px'}}
             >
               Projects
             </Nav.Link>
@@ -48,6 +50,7 @@ function Navbar({ theme, themeToggler }) {
             <Nav.Link
               className="navItem textBox"
               href="/react-bootstrap-portfolio/articles"
+              style={{fontSize: '20px'}}
             >
               Articles
             </Nav.Link>

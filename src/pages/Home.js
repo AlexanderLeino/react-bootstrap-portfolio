@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col,} from "react-bootstrap";
 import { ImHtmlFive } from "react-icons/im";
-import { DiCss3 } from "react-icons/di";
+import { DiCss3, DiVisualstudio } from "react-icons/di";
 import {
   SiJavascript,
   SiJquery,
@@ -14,7 +14,7 @@ import {
 import { FaNode } from "react-icons/fa";
 import HomeCss from "./Home.css";
 
-function Home({ theme }) {
+function Home() {
   return (
     <>
       <Container>
@@ -27,29 +27,18 @@ function Home({ theme }) {
               boxShadow: "5px 5px 5px 1px #888888",
             }}
           >
-            <h2 style={{ textAlign: "center", fontWeight: "600" }}>
+            <div style={{ textAlign: "center", fontSize: "25px" }}>
               Welcome To My Portfolio
-            </h2>
-            <p
+            </div>
+            <div
               style={{
                 textAlign: "center",
                 fontSize: "20px",
-                fontWeight: "600",
+                marginTop: '10px'
               }}
             >
-              Within the last year, I decided to switch careers from being a
-              Loan Officer to Software Development
-            </p>
-            <p
-              style={{
-                textAlign: "center",
-                fontSize: "20px",
-                fontWeight: "600",
-              }}
-            >
-              I obtained my Full Stack Certification from Trilogy Education in
-              partnership with Michigan State University on Jnauary 19th, 2022.
-            </p>
+              After achieving my Bachelors in Finance and working the banking industry for three years I decided to make the switch into tech. I took this leap, because I have insatiable desire to make ones day to day life easier and more effecient. 
+            </div>
           </Container>
 
           <Container>
@@ -61,9 +50,9 @@ function Home({ theme }) {
                 boxShadow: "5px 5px 5px 1px #888888",
               }}
             >
-              <h2 style={{ textAlign: "center", fontWeight: "600" }}>
+              <div style={{ textAlign: "center", fontSize: '25px'}}>
                 Technologies I Have Experience With
-              </h2>
+              </div>
               <Row
                 className="mt-5"
                 style={{ display: "flex", justifyContent: "space-evenly" }}

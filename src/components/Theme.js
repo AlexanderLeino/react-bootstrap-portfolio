@@ -15,6 +15,7 @@ export const lightTheme = {
   hoverColor: "rgba(172,220,255,1)",
   activeTextColor: "lightGreen",
   activeBackground: "lightyellow",
+  buttonHoverColor: 'lightgrey'
 };
 
 export const darkTheme = {
@@ -30,7 +31,9 @@ export const darkTheme = {
   button1Text: "black",
   button2Text: "black",
   button3Text: "black ",
-  hoverColor: "white",
+  // buttonHoverText: ""
+  hoverColor: "green",
   activeTextColor: "lightGreen",
   activeBackground: "black",
-};
+  buttonHoverColor: 'lightGreen'
+}
