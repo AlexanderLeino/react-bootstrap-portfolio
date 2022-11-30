@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-bootstrap-portfolio/static/css/main.5008aaf2.css",
-    "main.js": "/react-bootstrap-portfolio/static/js/main.88c102e8.js",
+    "main.js": "/react-bootstrap-portfolio/static/js/main.bd99bac4.js",
     "static/js/787.7d01fdad.chunk.js": "/react-bootstrap-portfolio/static/js/787.7d01fdad.chunk.js",
     "static/media/netflix-grill.png": "/react-bootstrap-portfolio/static/media/netflix-grill.3d9c5f46232aef4be73b.png",
     "static/media/localFarmers.PNG": "/react-bootstrap-portfolio/static/media/localFarmers.eaa7adb467167055d051.PNG",
@@ -10,11 +10,11 @@
     "static/media/portfolio.PNG": "/react-bootstrap-portfolio/static/media/portfolio.96609b497434dd93e71f.PNG",
     "index.html": "/react-bootstrap-portfolio/index.html",
     "main.5008aaf2.css.map": "/react-bootstrap-portfolio/static/css/main.5008aaf2.css.map",
-    "main.88c102e8.js.map": "/react-bootstrap-portfolio/static/js/main.88c102e8.js.map",
+    "main.bd99bac4.js.map": "/react-bootstrap-portfolio/static/js/main.bd99bac4.js.map",
     "787.7d01fdad.chunk.js.map": "/react-bootstrap-portfolio/static/js/787.7d01fdad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5008aaf2.css",
-    "static/js/main.88c102e8.js"
+    "static/js/main.bd99bac4.js"
   ]
 }
