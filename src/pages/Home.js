@@ -27,14 +27,15 @@ function Home() {
               boxShadow: "5px 5px 5px 1px #888888",
             }}
           >
-            <div style={{ textAlign: "center", fontSize: "30px" }}>
+            <div style={{ textAlign: "center", fontSize: "25px", fontWeight: 'bold'}}>
               Welcome To My Portfolio
             </div>
             <div
               style={{
                 textAlign: "center",
-                fontSize: "20px",
-                marginTop: '10px'
+                fontSize: "18px",
+                marginTop: '10px',
+                fontWeight: 0
               }}
             >
               After achieving my Bachelors in Finance and working the banking industry for three years I decided to make the switch into tech. I took this leap, because I have insatiable desire to make ones day to day life easier and more effecient. 
@@ -50,7 +51,7 @@ function Home() {
                 boxShadow: "5px 5px 5px 1px #888888",
               }}
             >
-              <div style={{ textAlign: "center", fontSize: '30px'}}>
+              <div style={{ textAlign: "center", fontSize: '25px', fontWeight: 'bold'}}>
                 Technologies I Have Experience With
               </div>
               <Row
@@ -165,7 +166,7 @@ function Home() {
               boxShadow: "5px 5px 5px 1px #888888",
             }}
           >
-            <div style={{ textAlign: "center", fontSize: '30px'}}>
+            <div style={{ textAlign: "center", fontSize: '25px', fontWeight: 'bold'}}>
               Recent Accolades
             </div>
             <Row className="accolades-container  mt-3">

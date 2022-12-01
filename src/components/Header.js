@@ -7,7 +7,7 @@ import HeaderCss from "./Header.css";
 import Theme from "./Theme";
 let index = 0  
 
-let cliftonStrengths = ["Futuristic", "Consistency", "Achiever", "Focus", "Adaptability"]
+let cliftonStrengths = ["Futuristic", "Consistent", "Achiever", "Focus", "Adaptable"]
 
 function Header({ theme, toggleTheme }) {
 
@@ -45,8 +45,8 @@ function Header({ theme, toggleTheme }) {
           </Col>
 
           <Col lg={6} className="mt-4">
-            <div style={{fontSize: '25px'}}>Alexander Leino</div>
-            <div style={{fontSize: '20px'}}>
+            <div style={{fontSize: '25px', fontWeight: 'bold'}}>Alexander Leino</div>
+            <div style={{fontSize: '20px', fontWeight: 'bold'}}>
               Full Stack MERN Developer | {strength}
             </div>
           </Col>

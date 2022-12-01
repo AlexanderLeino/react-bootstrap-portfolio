@@ -48,7 +48,7 @@ function Articles() {
               <h5 style={{ fontWeight: "600", fontSize: "20px" }}>
                 {post.title}
               </h5>
-              <p style={{ fontSize: "18px" }}>{post.brief}</p>
+              <p style={{ fontSize: "15px" }}>{post.brief}</p>
               <a
                 target="_blank"
                 rel="noreferrer"
