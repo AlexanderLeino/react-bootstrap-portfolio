@@ -94,7 +94,7 @@ function ButtonContainer() {
                           textAlign: "center",
                         }}
                       >
-                        <h2
+                        <h1
                           style={{
                             textAlign: "center",
                             fontWeight: "600",
@@ -103,7 +103,7 @@ function ButtonContainer() {
                           }}
                         >
                           {project.title}
-                        </h2>
+                        </h1>
 
                         <Col lg={6} md={12} sm={12} xs={12}>
                           <div style={{display: 'flex', alignItems: 'center', height: '100%'}}>
@@ -120,12 +120,12 @@ function ButtonContainer() {
                         </Col>
                         <Col lg={6}>
                           <h2
-                            style={{ textAlign: "center", fontWeight: "600" }}
+                            style={{ textAlign: "center", fontWeight: "600", fontSize: '30px' }}
                           >
                             Description
                           </h2>
-                          <div>{project.description}</div>
-                          <h5 style={{ fontWeight: "600", marginTop: "10px" }}>
+                          <div style={{fontWeight: 0, fontSize: '15px' }}>{project.description}</div>
+                          <h5 style={{ fontWeight: "600", marginTop: "10px", fontSize: '20px' }}>
                             Built With:{" "}
                           </h5>
                           <Container
