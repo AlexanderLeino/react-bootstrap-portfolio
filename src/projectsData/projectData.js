@@ -7,7 +7,8 @@ import {
   SiMongodb,
   SiExpress,
   SiChakraui,
-  SiMomenteo
+  SiMomenteo,
+  SiStyledcomponents
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
