@@ -7,6 +7,7 @@ import {
   SiMongodb,
   SiExpress,
   SiChakraui,
+  SiMomenteo
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
@@ -14,6 +15,8 @@ import netflixGrillPic from "../Assets/netflix-grill.png";
 import localFarmers from "../Assets/localFarmers.PNG";
 import blackJack from "../Assets/blackJack.PNG";
 import portfolio from "../Assets/portfolio.PNG";
+import weather from '../Assets/weather-app-picture.PNG'
+
 
 export const projectsArray = [
   {
@@ -73,5 +76,17 @@ export const projectsArray = [
     tags: ["frontEnd", "all"],
     deploy: "https://alexanderleino.github.io/react-bootstrap-portfolio",
     code: "https://github.com/AlexanderLeino/react-bootstrap-portfolio",
+  },
+  {
+    title: "Weather Dashboard",
+    description:
+      "I implemented the open weather api to obtain daily, weekly and historical forecasts. I made a simple express server to hide open weather api key. I used moment js to determine time of day based on the specific location. All components were built from scatch with styled components",
+    deploy: "https://open-weather-react-app.herokuapp.com/",
+    code: "https://github.com/AlexanderLeino/open-weather-react",
+    repository: "https://github.com/AlexanderLeino/open-weather-react",
+    icons: [<ImHtmlFive />, <SiJavascript />, <FaNode />, <SiExpress />,<SiReact /> ,'ChartJs', <SiMomenteo />, <SiStyledcomponents />
+    ],
+    image: weather,
+    tags: ['frontEnd', 'all', 'fullStack']
   },
 ];
