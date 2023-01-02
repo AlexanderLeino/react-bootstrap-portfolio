@@ -8,7 +8,10 @@ import {
   SiExpress,
   SiChakraui,
   SiMomenteo,
-  SiStyledcomponents
+  SiStyledcomponents,
+  SiMysql,
+  SiHandlebarsdotjs,
+  SiSequelize,
 } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { BsBootstrap } from "react-icons/bs";
@@ -17,6 +20,7 @@ import localFarmers from "../Assets/localFarmers.PNG";
 import blackJack from "../Assets/blackJack.PNG";
 import portfolio from "../Assets/portfolio.PNG";
 import weather from '../Assets/weather-app-picture.PNG'
+import techBlog from '../Assets/tech-pic.PNG'
 
 
 export const projectsArray = [
@@ -90,4 +94,15 @@ export const projectsArray = [
     image: weather,
     tags: ['frontEnd', 'all', 'fullStack']
   },
+  {
+    title: 'Tech Blog',
+    description: 'One of my bootcamp project whereas we were asked to create a Full Stack Blog platform. Its is a very rudimentary implemenation where a user can view others blog posts, as well as login and create their own blog posts. A user can also update and delete their previous blog posts',
+    deploy: "https://peaceful-lake-82679.herokuapp.com/",
+    repository: 'https://github.com/AlexanderLeino/techblog-working',
+    icons: [
+    <ImHtmlFive />, <SiJavascript />,<DiCss3 />, <SiMysql />, <SiHandlebarsdotjs />, <SiSequelize />],
+    image: techBlog,
+    tags: ['frontEnd', 'all', 'fullStack']
+  },
+
 ];
