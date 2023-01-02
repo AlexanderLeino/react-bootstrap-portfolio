@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-bootstrap-portfolio/static/css/main.d491924a.css",
-    "main.js": "/react-bootstrap-portfolio/static/js/main.7bf004c8.js",
+    "main.js": "/react-bootstrap-portfolio/static/js/main.9fc38d05.js",
     "static/js/787.7d01fdad.chunk.js": "/react-bootstrap-portfolio/static/js/787.7d01fdad.chunk.js",
     "static/media/netflix-grill.png": "/react-bootstrap-portfolio/static/media/netflix-grill.3d9c5f46232aef4be73b.png",
     "static/media/weather-app-picture.PNG": "/react-bootstrap-portfolio/static/media/weather-app-picture.b8a6e96f158bf74b5fde.PNG",
@@ -9,13 +9,14 @@
     "static/media/profile-picture.jpg": "/react-bootstrap-portfolio/static/media/profile-picture.4a0506bcb0672827bc3e.jpg",
     "static/media/blackJack.PNG": "/react-bootstrap-portfolio/static/media/blackJack.a3e6f92e70f46ca7ec1d.PNG",
     "static/media/portfolio.PNG": "/react-bootstrap-portfolio/static/media/portfolio.96609b497434dd93e71f.PNG",
+    "static/media/tech-pic.PNG": "/react-bootstrap-portfolio/static/media/tech-pic.b5c0515c02c98788b1b0.PNG",
     "index.html": "/react-bootstrap-portfolio/index.html",
     "main.d491924a.css.map": "/react-bootstrap-portfolio/static/css/main.d491924a.css.map",
-    "main.7bf004c8.js.map": "/react-bootstrap-portfolio/static/js/main.7bf004c8.js.map",
+    "main.9fc38d05.js.map": "/react-bootstrap-portfolio/static/js/main.9fc38d05.js.map",
     "787.7d01fdad.chunk.js.map": "/react-bootstrap-portfolio/static/js/787.7d01fdad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d491924a.css",
-    "static/js/main.7bf004c8.js"
+    "static/js/main.9fc38d05.js"
   ]
 }
