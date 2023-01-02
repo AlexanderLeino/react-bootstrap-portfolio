@@ -99,6 +99,7 @@ export const projectsArray = [
     description: 'One of my bootcamp project whereas we were asked to create a Full Stack Blog platform. Its is a very rudimentary implemenation where a user can view others blog posts, as well as login and create their own blog posts. A user can also update and delete their previous blog posts',
     deploy: "https://peaceful-lake-82679.herokuapp.com/",
     repository: 'https://github.com/AlexanderLeino/techblog-working',
+    code: 'https://github.com/AlexanderLeino/techblog-working',
     icons: [
     <ImHtmlFive />, <SiJavascript />,<DiCss3 />, <SiMysql />, <SiHandlebarsdotjs />, <SiSequelize />],
     image: techBlog,
