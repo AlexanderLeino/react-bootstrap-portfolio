@@ -49,28 +49,6 @@ export const projectsArray = [
     code: "https://github.com/AlexanderLeino/blackjack-game",
   },
   {
-    title: "Your Local Farmer",
-    description:
-      "This was the capstone project for my coding bootcamp. The goal of the project was to build a fullstack application within react. We built the backend using mongodb and GraphQL to authenticate, render and save data. We also wanted to experiment with using a component library that we have never used before. We chose to use Chakra UI because it aheres to WAI-ARIA standards for accessiblity.",
-    repository: "https://github.com/AlexanderLeino/Netflix-and-Grill",
-    icons: [
-      <ImHtmlFive />,
-      <SiJavascript />,
-      <DiCss3 />,
-      <FaNode />,
-      <SiExpress />,
-      <SiReact />,
-      <SiGraphql />,
-      <SiMongodb />,
-      <SiChakraui />,
-    ],
-    image: localFarmers,
-    tags: ["fullStack", "all"],
-    deploy: "https://your-local-farmers.herokuapp.com/",
-    code: "https://github.com/tevissaur/your-local-farmers",
-  },
-
-  {
     title: "My Portfolio",
     description:
       "I built this portfolio to showcase my previous works. The goal of the project was to create and implement a dark and light theme, I also wanted to use HashNode's API to get all of my previous blog posts and have them visible under the articles tab.",
