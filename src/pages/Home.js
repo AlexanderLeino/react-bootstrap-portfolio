@@ -38,7 +38,7 @@ function Home() {
                 fontWeight: 0
               }}
             >
-              After achieving my Bachelors in Finance and working the banking industry for three years I decided to make the switch into tech. I took this leap, because I have insatiable desire to make ones day to day life easier and more effecient. 
+              After achieving my Bachelor's in Finance and working in the banking industry for three years I decided to make the switch to tech. I took this leap because I have an insatiable desire to make ones day to day life easier and more efficient.
             </div>
           </Container>
 
