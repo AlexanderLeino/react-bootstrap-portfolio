@@ -39,7 +39,7 @@ export const projectsArray = [
   {
     title: "Black Jack",
     description:
-      "The goal of the project was to focus on writing dense programming logic when I first started writing code as well as focus on heavy DOM manipulation by creating each individual card using BootStrap, CSS, vanilla javascript. This project is still a work in progress. Currently working on making the ui responsive for devices with a smaller screen size than a laptop. Have fun! ",
+    "The goal of the project was to focus on writing dense programming logic when I first started writing code as well as focus on heavy DOM manipulation by creating each card using BootStrap, CSS, and vanilla javascript. This project is still a work in progress. Currently working on making the UI responsive for devices with a smaller screen size than a laptop. Have fun! ",
     deploy: "https://alexanderleino.github.io/Netflix-and-Grill/",
     repository: "https://github.com/AlexanderLeino/Netflix-and-Grill",
     icons: [<ImHtmlFive />, <SiJavascript />, <DiCss3 />, <BsBootstrap />],
@@ -51,7 +51,7 @@ export const projectsArray = [
   {
     title: "My Portfolio",
     description:
-      "I built this portfolio to showcase my previous works. The goal of the project was to create and implement a dark and light theme, I also wanted to use HashNode's API to get all of my previous blog posts and have them visible under the articles tab.",
+      "I built this portfolio to showcase my previous works. The goal of the project was to create and implement a dark and light theme, also implement HashNode's API to obtain all of my previous blog posts and have them visible under the articles tab.",
     deploy: "https://alexanderleino.github.io/Netflix-and-Grill/",
     repository: "https://github.com/AlexanderLeino/Netflix-and-Grill",
     icons: [<ImHtmlFive />, <SiJavascript />, <DiCss3 />, <BsBootstrap />],
@@ -63,7 +63,7 @@ export const projectsArray = [
   {
     title: "Weather Dashboard",
     description:
-      "I implemented the open weather api to obtain daily, weekly and historical forecasts. I made a simple express server to hide open weather api key. I used moment js to determine time of day based on the specific location. All components were built from scatch with styled components",
+      "I implemented the open weather API to obtain daily, weekly, and historical forecasts. I made a simple express server to hide the open weather API key. I used moment js to determine the time of day based on the specific location. All components were built from scatch with Styled Components",
     deploy: "https://open-weather-react-app.herokuapp.com/",
     code: "https://github.com/AlexanderLeino/open-weather-react",
     repository: "https://github.com/AlexanderLeino/open-weather-react",
@@ -74,7 +74,7 @@ export const projectsArray = [
   },
   {
     title: 'Tech Blog',
-    description: 'One of my bootcamp project whereas we were asked to create a Full Stack Blog platform. Its is a very rudimentary implemenation where a user can view others blog posts, as well as login and create their own blog posts. A user can also update and delete their previous blog posts',
+    description: 'For one of my boot camp projects, we were tasked with creating a Full Stack Blog platform. It uses JSON Web Token and MYSQL on the backend for user authentication and keeps a tracker of individual users and their interactions. The goal of the project was to allow a user to sign in. Then once the user is signed in they can perform any CRUD operation related to their blog posts. They are also able to view others blog posts as well!',
     deploy: "https://peaceful-lake-82679.herokuapp.com/",
     repository: 'https://github.com/AlexanderLeino/techblog-working',
     code: 'https://github.com/AlexanderLeino/techblog-working',
